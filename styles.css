@@ -23,3 +23,30 @@ body {
     color: white;
     border: none;
 }
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+button {
+    flex: 0 0 25%;
+    padding: 0.25rem;
+    transition: all 2s easy;
+
+}
+.btn-yellow {
+    background: rgb(225,146,62);
+    color: white;
+}
+.btn-grey {
+    background: rgb(224,224,224)
+}
+.btn, .btn-equal, .btn-clear {
+    font-size: 4rem;
+}
+.btn-equal {
+    background: darkgrey;
+}
+.btn-clear {
+    background:darkgray
+}
