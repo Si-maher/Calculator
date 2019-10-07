@@ -7,12 +7,16 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    background: lightblue
 
 }
 
 .calculator {
-    flex: 0 0 95%;
+    flex: 0 0 50%;
+    -webkit-box-shadow: 14px 35px 96px 17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 35px 96px 17px rgba(0,0,0,0.75);
+    box-shadow: 14px 35px 96px 17px rgba(0,0,0,0.75);
     
 }
 
