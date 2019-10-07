@@ -11,3 +11,7 @@ This app was creted using vanilla JavaScript, HTML and CSS. The user can input d
 * Javascript
 * HTML
 * CSS
+
+# Author
+
+Simon Maher
