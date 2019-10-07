@@ -10,3 +10,16 @@ body {
     align-items: center
 
 }
+
+.calculator {
+    flex: 0 0 95%;
+}
+
+.screen {
+    width: 100%;
+    font-size: 7rem;
+    padding: 0.5rem;
+    background: rgb(41,41,56);
+    color: white;
+    border: none;
+}
