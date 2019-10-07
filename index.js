@@ -9,3 +9,9 @@ for(i = 0; i < btns.length; i ++) {
         screen.value += number
     })
 }
+
+equalBtn.addEventListener('click', function() {
+    let value = eval(screen.value)
+    screen.value = value
+})
+
